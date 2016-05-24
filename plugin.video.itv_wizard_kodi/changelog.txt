@@ -1,0 +1,23 @@
+v1.0.13
+Fixed support popup
+
+v1.0.12
+Backup location
+
+v1.0.9
+Re-write dialoge
+
+v1.0.8
+Wipe setup
+
+v1.0.7
+New host
+
+v1.0.6
+Remote restore
+
+v1.0.5
+Addon graphics
+
+v1.0.1
+Testing begins
