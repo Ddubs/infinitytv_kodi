@@ -24,10 +24,12 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.itv_wizard_kodi" name="Infinity TV OS Updater" version="0.0.5" provider-name="INFINITY TV">
+<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.9" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
+	<import addon="skin.infinitytv-X-demo" version="0.0.1"/>
+	<import addon="skin.infinitytv-X" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -38,169 +40,6 @@
     <description lang="en">Welcome to INFINITY TV</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.shahidmbcnet"
-       name="Shahid Arabic"
-       version="3.3.1"
-       provider-name="shani">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.beautifulsoup" version="3.0.8"/>
-    <import addon="plugin.video.youtube" version="2.9.2"/>
-	<import addon="script.module.elementtree" version="1.2.8"/>
-	<import addon="script.common.plugin.cache" version="0.9.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>ShahidMBC.net XBMC Client</summary>
-    <description>Formally known as ShahidMBC.net. This plugin fetches the video sources from ShahidMBC.net, youtube and some Live channels which you can play on XBMC compatible plateforms</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.Showbox"
-  version="1.1"
-  name="Showbox"
-  provider-name="Showbox">
-  <requires>
-        <import addon="xbmc.python" version="2.1.0" optional="true" />
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-        <import addon="script.module.urlresolver" version="1.0.0"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Showbox</summary>
-    <description>Watch Movies and TVShows on Showbox</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2015.11.22"
-  name="SportsDevil"
-  provider-name="MaxMustermann, Al101, Hubbab3, Sattekop">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.requests" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.xbmc-hockey-streams-gotham" name="XBMC Hockey Streams" version="3.0.6" provider-name="Craig McNicholas, Swedemon">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="repository.xbmc-hockey-streams" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Video plugin for hockeystreams.com</summary>
-		<description>This Add-on allows access to hockeystreams.com streams, you will need a premium account at hockeystreams.com for this Add-on to function</description>
-		<platform>all</platform>
-		<license>GNU GPL v3</license>
-		<disclaimer>Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-	</extension>
-</addon>
-
-<addon id="plugin.video.xbmchubmaintenance" version="2.1.4"
-	name="Maintenance Tool" provider-name="tvaddons.ag">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.addon.common" />
-    <import addon="script.module.metahandler" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Maintenance Tool</summary>
-    <description lang="en">Maintenance Tool is your one stop tool for all fixes and information.</description>
-    <platform>all</platform>
-    <forum>http://forums.tvaddons.ag/forums/130-MAINTENANCE-TOOL</forum>
-    <website>http://www.tvaddons.ag/</website>
-  </extension>
-</addon>
-
-<addon id="plugin.video.ZemTV-shani"
-       name="ZemTV.com"
-       version="3.3.6"
-       provider-name="shani">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="1.0.0"/>
-	<import addon="plugin.video.youtube" version="2.9.2"/>
-       <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>ZemTV.tv XBMC Client</summary>
-    <description>Watch ZemTV.com on your XBMC. This plugin fetches the video sources from ZemTV.com and play on XBMC compatible plateforms</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-	id="plugin.video.latinototal" version="0.0.1" name="latinototal" provider-name="19hdz19">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-        <import addon="plugin.video.youtube" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-                <platform>all</platform>
-		<summary lang="es">totallatino</summary>
-		<description lang="es">agradecimientos a juarrox el creador de la base de este plugin y a largobarbate por su ayuda, sin la ayuda de ellos este addon no funcionaria</description>
-		<description lang="es">agradecimientos a juarrox el creador de la base de este  plugin y a largobarbate por su ayuda, sin la ayuda de ellos este addon funcionaria</description>
-		<description lang="es">[B]Agradecimientos:[B]agradecimientos a juarrox el creador de la base de este  plugin y a largobarbate por su ayuda, sin la ayuda de ellos este addon funcionaria</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-		<disclaimer lang="es">Algunas partes de este addon podrían no ser legales en tu país de residencia - por favor comprueba las leyes de tu país antes de su instalación.</disclaimer>
-		<website>[COLOR yellow][B]http://www.palcotv.net[/B][/COLOR]</website>
-		<license>GPL 2.0</license>
-		<platform>all</platform>
-		<language>en</language>
-	</extension>
-</addon>
-
-<addon id="repository.dk-xbmc-repaddon" name="dk-xbmc-repaddon Add-on Repository" version="1.0.5" provider-name="dk-xbmc-repaddon">
-	<extension point="xbmc.addon.repository" name="dk-xbmc-repaddon Add-on Repository">
-		<info compressed="false">http://raw.githubusercontent.com/dknlght/dkodi/master/addons.xml</info>
-		<checksum>http://raw.githubusercontent.com/dknlght/dkodi/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.githubusercontent.com/dknlght/dkodi/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Add-ons from dk Add-on Repository</summary>
-		<description>Video plug-ins for XBMC</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="repository.infinitytv_kodi" name="INFINITY TV KODI Plugins" version="1.0.0" provider-name="INFINITY TV">
@@ -217,56 +56,19 @@
 	</extension>
 </addon>
 
-<addon
-	id="repository.mx"
-	name="MX repository"
-	version="1.0.7"
-	provider-name="Kiwi Systems">
-	<extension point="xbmc.addon.repository"
-        name="MX Add-on Repository">
-		<info compressed="false">http://thaisatellite.tv/repo/addons.xml</info>
-		<checksum>http://thaisatellite.tv/repo/addons.xml.md5</checksum>
-		<datadir zip="true">http://thaisatellite.tv/repo</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>MX Repository</summary>
-		<description>Home of the MX add-ons on www.TVaddons.ag only.</description>
-		<disclaimer>These add-ons can change at anytime so please stay updated. Support at www.tvaddons.ag ONLY</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.shani" name="Shanis Addon Repository" version="2.8" provider-name="Shani">
-	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
-    <dir>
-            <info compressed="false">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml</info>
-            <checksum>https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/zips</datadir>
-    </dir>
-
-    <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
-    <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
-    <datadir zip="true">https://offshoregit.com/Shani-08/main/zips</datadir>
-
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Addons related to XBMC for Zemtv etc</summary>
-		<description>Go though the plugins and see what you like</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.xbmc-hockey-streams" name="XBMC Hockey Streams Repo" version="0.0.1" provider-name="fungus1487, Swedemon">
-    <extension point="xbmc.addon.repository" name="XBMC Hockey Streams Repo">
-        <info compressed="false">https://raw.githubusercontent.com/fungus1487/xbmc-hockey-streams/master/repo/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/fungus1487/xbmc-hockey-streams/master/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/fungus1487/xbmc-hockey-streams/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Install Hockey Streams XBMC Addons</summary>
-        <description>Download and install Hockey Streams addons by fungus1487, Swedemon</description>
-        <platform>all</platform>
-    </extension>
+<addon id="script.module.compita" name="compita" version="0.0.3" provider-name="NA">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides></provides>
+  </extension>
+  <!--<extension point="xbmc.service" library="service.py" start="startup"/>-->
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">compita</summary>
+    <description lang="en">compita</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="script.module.requests"
@@ -326,15 +128,17 @@
   </extension>
 </addon>
 
-<addon id="skin.infinitytv-X" version="0.0.9" name="Infinity TV" provider-name="Infinitytv.com">
+<addon id="skin.infinitytv-X" version="0.0.10" name="Infinity TV" provider-name="Infinitytv.com">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
+	<import addon="plugin.video.itv_wizard_kodi" version="0.0.4"/>
     <import addon="service.library.data.provider" version="0.0.4"/>
   </requires>
   <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
     </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
 	<summary lang="en"></summary>
@@ -344,28 +148,23 @@
   </extension>
 </addon>
 
-<addon
-  id="skin.infinitytv_demo"
-  version="0.0.24"
-  name="INFINITY TV Demo"
-  provider-name="INFINITY TV DEMO">
-	<requires>
-		<import addon="xbmc.gui" version="5.0.0"/>
-		<import addon="script.grab.fanart" version="0.12.8"/>
-		<import addon="script.skinshortcuts" version="0.2.4"/>
-		<import addon="service.library.data.provider" version="0.0.1"/>
-	</requires>
-	<extension
-	  point="xbmc.gui.skin"
-	  defaultthemename="textures.xbt"
-	  debugging="false"
-	  effectslowdown="0.75">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>INFINITY TV skin</summary>
-		<description>INFINITY TV skin: Completely redesigned to create a modern look</description>
-		<platform>all</platform>
-	</extension>
+<addon id="skin.infinitytv-X-demo" version="0.0.1" name="Infinity TV DEMO" provider-name="Infinitytv.com">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.favourites" version="3.2.5"/>
+	<import addon="plugin.video.itv_wizard_kodi" version="0.0.4"/>
+    <import addon="service.library.data.provider" version="0.0.4"/>
+  </requires>
+  <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+    </extension>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+	<summary lang="en"></summary>
+    <description lang="en"></description>
+    <description lang="it"></description>
+    <disclaimer>InfinityTV Skin</disclaimer>
+  </extension>
 </addon>
 </addons>
