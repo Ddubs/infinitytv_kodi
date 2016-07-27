@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<addon id="skin.infinitytv-X-demo" version="0.0.1" name="Infinity TV DEMO" provider-name="Infinitytv.com">
+<addon id="skin.infinitytv-X-demo" version="0.0.2" name="Infinity TV Test Skin (Do not touch)" provider-name="Infinitytv.com">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
