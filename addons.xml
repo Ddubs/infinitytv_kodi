@@ -140,7 +140,7 @@
   </extension>
 </addon>
 
-<addon id="skin.infinitytv-X" version="0.0.11" name="Infinity TV" provider-name="Infinitytv.com">
+<addon id="skin.infinitytv-X" version="0.0.12" name="Infinity TV Skin" provider-name="infinitytv.ca">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
@@ -156,11 +156,11 @@
 	<summary lang="en"></summary>
     <description lang="en"></description>
     <description lang="it"></description>
-    <disclaimer>InfinityTV Skin</disclaimer>
+    <disclaimer>Infinity TV Skin</disclaimer>
   </extension>
 </addon>
 
-<addon id="skin.infinitytv-X-demo" version="0.0.2" name="Infinity TV Test Skin (Do not touch)" provider-name="Infinitytv.com">
+<addon id="skin.infinitytv-X-demo" version="0.0.3" name="Infinity TV Test Skin (Do not touch)" provider-name="Infinitytv.ca">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
@@ -176,7 +176,7 @@
 	<summary lang="en"></summary>
     <description lang="en"></description>
     <description lang="it"></description>
-    <disclaimer>InfinityTV Skin</disclaimer>
+    <disclaimer>Infinity TV Skin</disclaimer>
   </extension>
 </addon>
 </addons>
