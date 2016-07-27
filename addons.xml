@@ -56,6 +56,18 @@
 	</extension>
 </addon>
 
+<addon id="resource.uisounds.infinitytv" version="1.0.0" name="Infinity TV Sounds" provider-name="Infinitytv">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">GUI sounds for Infinitytv</summary>
+    <description lang="en">Enjoy a more immersive experience by using Infinitytv GUI Sounds.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.compita" name="compita" version="0.0.3" provider-name="NA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
