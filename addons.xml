@@ -24,7 +24,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.9" provider-name="INFINITY TV">
+<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.10" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
@@ -68,7 +68,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.compita" name="compita" version="0.0.3" provider-name="NA">
+<addon id="script.module.compita" name="compita" version="0.0.4" provider-name="NA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -140,7 +140,7 @@
   </extension>
 </addon>
 
-<addon id="skin.infinitytv-X" version="0.0.12" name="Infinity TV Skin" provider-name="infinitytv.ca">
+<addon id="skin.infinitytv-X" version="0.0.13" name="Infinity TV Skin" provider-name="infinitytv.ca">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
