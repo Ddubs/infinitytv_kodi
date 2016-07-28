@@ -24,12 +24,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.10" provider-name="INFINITY TV">
+<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.11" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
-	<import addon="skin.infinitytv-X-demo" version="0.0.1"/>
-	<import addon="skin.infinitytv-X" version="0.0.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
