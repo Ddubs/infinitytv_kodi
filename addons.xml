@@ -138,7 +138,7 @@
   </extension>
 </addon>
 
-<addon id="skin.infinitytv-X" version="0.0.14" name="Infinity TV Skin" provider-name="infinitytv.ca">
+<addon id="skin.infinitytv-X" version="0.0.15" name="Infinity TV Skin" provider-name="infinitytv.ca">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
