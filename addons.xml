@@ -24,6 +24,35 @@
   </extension>
 </addon>
 
+
+<addon id="plugin.video.infinitytv_videos" name="InfinityTV Help Videos" version="1.0.2" provider-name="InfinityTV">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
 <addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.21" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -138,12 +167,13 @@
   </extension>
 </addon>
 
-<addon id="skin.infinitytv-X" version="0.0.17" name="Infinity TV Skin" provider-name="infinitytv.ca">
+<addon id="skin.infinitytv-X" version="0.0.18" name="Infinity TV Skin" provider-name="infinitytv.ca">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
 	<import addon="plugin.video.itv_wizard_kodi" version="0.0.4"/>
     <import addon="service.library.data.provider" version="0.0.4"/>
+	<import addon="plugin.video.infinitytv_videos" version="1.0.2"/>
   </requires>
   <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
