@@ -53,7 +53,7 @@
 
 </addon>
 
-<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.22" provider-name="INFINITY TV">
+<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.23" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
