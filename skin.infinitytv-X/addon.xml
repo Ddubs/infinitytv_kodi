@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<addon id="skin.infinitytv-X" version="0.0.25" name="Infinity TV Skin" provider-name="infinitytv.ca">
+<addon id="skin.infinitytv-X" version="0.0.26" name="Infinity TV Skin" provider-name="infinitytv.ca">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
 	<import addon="plugin.video.itv_wizard_kodi" version="0.0.4"/>
     <import addon="service.library.data.provider" version="0.0.4"/>
 	<import addon="plugin.video.infinitytv_videos" version="1.0.2"/>
+	<import addon="plugin.video.apple_trailers" version="0.0.11"/>
   </requires>
   <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
