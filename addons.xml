@@ -257,7 +257,7 @@
   </extension>
 </addon>
 
-<addon id="script.video.newparentalcontrols" name="ITV Parental Controls" version="1.5.4" provider-name="killdash9">
+<addon id="script.video.newparentalcontrols" name="ITV Parental Controls" version="1.5.5" provider-name="killdash9">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
