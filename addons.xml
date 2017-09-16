@@ -71,7 +71,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.42" provider-name="INFINITY TV">
+<addon id="plugin.video.itv_wizard_kodi" name="ITV Updater/Installer" version="0.0.43" provider-name="INFINITY TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.program.infinitytv.notifications" version="1.0.2"/>
@@ -207,7 +207,7 @@
   </extension>
 </addon>
 
-<addon id="skin.infinitytv-X-demo" version="0.0.3" name="Infinity TV Test Skin (Do not touch)" provider-name="Infinitytv.ca">
+<addon id="skin.infinitytv-X-demo" version="0.0.4" name="Infinity TV Test Skin (Do not touch)" provider-name="Infinitytv.ca">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
     <import addon="script.favourites" version="3.2.5"/>
