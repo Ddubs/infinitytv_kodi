@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.infinitytv-XK" version="1.0.4" name="Infinity TV Interface" provider-name="infinitytv.ca">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">A skin for Kodi by Infinity TV</summary>
+        <description lang="en">Infinity TV Skin.</description>
+        <platform>all</platform>
+        <license>Infinity TV Skin</license>
+        <forum>Infinity TV</forum>
+        <source>Infinity TV</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
